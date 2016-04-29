@@ -13,7 +13,7 @@ PepVal will do different things based on what it is given as input.
   2. ./pepval.py [options] --> This will run ONLY the doc string check on every file in the directory that PepVal is in. 
 
 #Options
-  --statistcs -qq  --> How often each error was found.
-  --show-source --> Show exactly where the error occurred. 
-  --first --> Don't display the same error multiple times. 
+  1. --statistcs -qq  --> How often each error was found.
+  2. --show-source --> Show exactly where the error occurred. 
+  3. --first --> Don't display the same error multiple times. 
 
