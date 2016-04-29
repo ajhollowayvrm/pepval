@@ -10,7 +10,7 @@ BEFORE INSTALLATION make sure that you have a Python Interpreter and pip install
   
 
 #Running PepVal
-PepVal will do different things based on what it is given as input.
+PepVal will do different things based on what it is given as input. *These commands must be run while inside the folder where PepVal is contained. However, the path to the files or directory being validated can be anywhere.*
   1. ./pepval [options] scriptname.py --> This will run PepVal in the specified file(s). 
   2. ./pepval [options] ../directoryname --> This will run PepVal on every file in the selected directory. *NOTE: There is a weird bug with PyDocStyle where an error occasionally occurs dealing with bad functions.*
 
